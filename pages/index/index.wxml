@@ -1,13 +1,26 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+
+<view>  
+  <image src='/imgs/indexlogo.jpg'  class="indexlogo"> </image>
 </view>
+
+
+<view class='searchSection'>
+  <button type='default' class='searchButton'> 
+  <icon type='search' size='10'></icon>
+  <text class='searchText'>   名称、编号</text>    
+  </button> 
+</view>
+
+<view class='paperSection'>
+  <view class='paper'>
+    <text class='tileText'>常用规范</text>
+    
+    <text class='nameText'>常用规范名称从来不知道有多长</text> 
+    <text class='idText'>编号124124124</text> 
+    <text class='nameText'>常用规范名称从来不知道有多长1235423</text> 
+    <text class='idText'>编号eryeyery</text>  
+  </view>
+
+</view>
+

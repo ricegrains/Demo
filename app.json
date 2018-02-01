@@ -7,6 +7,24 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#0c5d58",
     "navigationBarTitleText": "规范手册",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar":{
+     "color":"black",
+     "selectedColor":"white",
+     "borderStyle":"white",
+     "backgroundColor":"#0c5d58",
+     "list":[{
+        "pagePath":"pages/index/index",
+        "text":"查规范"
+     },
+     {"pagePath":"pages/index/index",
+        "text":"所有规范"},
+     {"pagePath":"pages/index/index",
+        "text":"计算"},
+     {"pagePath":"pages/index/index",
+        "text":"个人中心"}]
   }
+
 }
