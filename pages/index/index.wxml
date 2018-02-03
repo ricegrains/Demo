@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<view class='content'>
 
 <view>  
   <image src='/imgs/indexlogo.jpg'  class="indexlogo"> </image>
@@ -14,13 +15,38 @@
 
 <view class='paperSection'>
   <view class='paper'>
-    <text class='tileText'>常用规范</text>
+    <view  class='tileText'>常用规范</view> 
     
-    <text class='nameText'>常用规范名称从来不知道有多长</text> 
-    <text class='idText'>编号124124124</text> 
-    <text class='nameText'>常用规范名称从来不知道有多长1235423</text> 
-    <text class='idText'>编号eryeyery</text>  
+    <button class='pagebutton'>
+      <view class='nameText'>电力工程交流不间断电源系统设计技术规程</view>
+      <view class='idText'>编号DL/T5491-2014</view>
+    </button>
+    <button class='pagebutton'>
+      <view class='nameText'>国家电网公司配电网工程通用造价</view>
+      <view class='idText'>编号2014</view>
+    </button>
+    <button class='pagebutton'>
+      <view class='nameText'>国家电网公司输变电工程</view>
+      <view class='idText'>编号DL/T5491-2014</view>
+    </button>
+    <button class='pagebutton'>
+      <view class='nameText'>活力发电厂制粉系统设计计算技术规定</view>
+      <view class='idText'>编号DL/T5491-2014</view>
+    </button>
+    <button class='pagebutton'>
+      <view class='nameText'>常用规范名称从来不知道有多长</view>
+      <view class='idText'>编号DL/T5491-2014</view>
+    </button>  
+    <button class='pagebutton'>
+      <view class='nameText'>常用规范名称从来不知道有多长</view>
+      <view class='idText'>编号DL/T5491-2014</view>
+    </button>  
+    <button class='pagebutton'>
+      <view class='nameText'>常用规范名称从来不知道有多长</view>
+      <view class='idText'>编号DL/T5491-2014</view>
+    </button>      
   </view>
 
 </view>
 
+</view>
